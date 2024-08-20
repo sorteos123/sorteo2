@@ -1,0 +1,116 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background: url('https://cdn-icons-png.freepik.com/512/2611/2611083.png') no-repeat center center/cover;
+    height: 75vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+header .overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0 0 10px;
+}
+
+header p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+header button {
+    background-color: #ff8a00;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+header button:hover {
+    background-color: #e52e71;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+.que-hacemos, .como-funciona, .por-que-participar {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ff8a00;
+}
+
+.pasos {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.paso {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1;
+}
+
+.paso h3 {
+    font-size: 1.5em;
+    color: #e52e71;
+}
+
+.paso p {
+    font-size: 1.1em;
+}
+
+.por-que-participar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.por-que-participar li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    position: relative;
+}
+
+.redes-sociales a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.redes-sociales img {
+    width: 30px;
+    height: 30px;
+}
